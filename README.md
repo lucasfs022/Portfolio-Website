@@ -1,7 +1,7 @@
 # Introdução
-Este é um projeto feito através da plataforma [Codecademy](https://www.codecademy.com/), no qual eu tive que criar um portfólio usando todo o conhecimento que adquiri até o momento no curso Front-End Engineer - Career Path.
+Este é um projeto feito através da plataforma [Codecademy](https://www.codecademy.com/), no qual eu tive que criar um portfólio usando todo o conhecimento que adquiri até o momento no curso *Front-End Engineer - Career Path*.
 
-Eu decidi tornar este projeto em meu prório site freelance e portifólio. Eu estou feliz com o resultado, e gostaria de compartilhar o código com toda a comunidade de programadores do Github.
+Eu decidi tornar este projeto em meu site freelance e portfólio. Eu estou feliz com o resultado, e gostaria de compartilhar o código com toda a comunidade de programadores do Github.
 
 # English
 ## Introduction
