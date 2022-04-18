@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/47b3f21ed1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/Style.css">
+    <script src="https://kit.fontawesome.com/47b3f21ed1.js" crossorigin="anonymous"></script>
+    <title>Lucas Portfólio</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+
+            <div class="nav-bar">
+                <div class="logo-container">
+                    <div class="logo-img">
+                        <a href="./Index.html" class="logo-link"><img src="./Resources/Images/Foto-logo.png" alt="Lucas-photo"></a>                   
+                    </div>
+                    <a href="./Index.html" class="logo-link"><h3 class="logo-name">Lucas Silva</h3></a>
+                </div>
+                
+                <nav>
+                    <ul class="nav-list">
+                        <li class="nav-items"><a href="./Index.html" class="nav-link">Home</a></li>
+                        <li class="nav-items"><a href="#about" class="nav-link">Sobre</a></li>
+                        <li class="nav-items"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-items"><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                        <li class="nav-items"><a href="#contact" class="nav-link">Contato</a></li>
+                    </ul>
+                </nav>      
+                
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><img class="icon" src="./Resources/Icons/menu-icon.svg" alt="menu-icon"></button>
+                </div>
+            </div>
+
+            <!-- ===== MOBILE MENU ===== -->
+            <div class="mobile-menu">
+                <ul>
+                    <li class="nav-items"><a href="./Index.html" class="nav-link">Home</a></li>
+                    <li class="nav-items"><a href="#about" class="nav-link">Sobre</a></li>
+                    <li class="nav-items"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-items"><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                    <li class="nav-items"><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </header>
+    
+    <main>
+        <section id="hero">
+            <div class="hero-container">                
+                <div class="hero-heading">
+                    <h1 class="hero-title">Lucas Silva</h1>
+                    <h2 class="hero-subtitle">FrontEnd Developer</h2>
+
+                    <div class="hero-text">
+                        <p class="hero-description">Desenvolvedor focado em FrontEnd, criando soluções para websites e aplicações web utilizando as melhores práticas do mercado.</p>
+                    </div>
+
+                    <div class="hero-btn">
+                        <button class="contact-button">
+                            <a href="#contact" class="project-link">
+                                Contato
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </a>
+                        </button>
+                    </div>
+                </div>                               
+
+                <div class="social-media-container">
+                    <div class="social-media-icon">
+                        <a href="https://www.linkedin.com/in/lucas-silva-658980161" target="_blank" class="social-icon-link"><img src="./Resources/Icons/linkedin-black-icon.png" alt="linkedin-icon" class="linkedin-icon"></a>
+                    </div>
+
+                    <div class="social-media-icon">
+                        <a href="https://github.com/lucasfs022" target="_blank" class="social-icon-link"><img src="./Resources/Icons/github-black-icon.png" alt="github-icon" class="github-icon"></a>
+                    </div>
+
+                    <!-- <div class="social-media-icon">
+                        <a href="https://www.instagram.com/lucasfs022/" target="_blank" class="social-icon-link"><img src="./Resources/Icons/insta-black-icon.png" alt="instagram-icon" class="instagram-icon"></a>
+                    </div> -->
+
+                    <div class="social-media-icon">
+                        <a href="https://api.whatsapp.com/send?phone=5511991146479" target="_blank" class="social-icon-link"><img src="./Resources/Icons/whats-black-icon.png" alt="whatsapp-icon" class="whatsapp-icon"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+        <section id="about">
+            <div class="about-container">
+                
+                <img src="/Resources/Images/Foto-about.png" alt="Lucas-photo">
+
+                <div class="about-text">
+                    <h2>Sobre Mim</h2>
+                    <h3>FrontEnd Developer</h3>
+                    <p>Após um pouco mais de 10 anos de experiência no mercado, atuando com foco em gestão de equipes, otimização de custos e processos, descobri a minha verdadeira paixão profissional: desenvolvimento de software!</p>
+                    <p>Sou uma pessoa criativa que adora usar as tecnologias mais recentes para criar sites e aplicativos exclusivos, além de ser um entusiasta em aprender novas habilidades e enfrentar os desafios que vêm com isso.</p>                
+                </div>
+                
+            </div>
+        </section>
+        
+        <section id="skills">
+            
+            <div class="skills-container">
+                <h2>Skills e Power Up's</h2>
+                <div class="skills-wrap">
+                
+                    <article class="skills-wrapper">
+                        <!-- <img src="/Resources/Icons/html-5.png" alt="HTML5 icon"> -->
+                        <div class="skills-info">
+                            <h3>HTML</h3>
+                            <progress class="prog-bar" value="70" max="100">70</progress>
+                        </div>
+                    </article>
+
+                    <article class="skills-wrapper">
+                        <!-- <img src="/Resources/Icons/css-3.png" alt="CSS3 icon"> -->
+                        <div class="skills-info">
+                            <h3>CSS</h3>
+                            <progress value="70" max="100">70</progress>
+                        </div>
+                    </article>
+
+                    <article class="skills-wrapper">
+                        <!-- <img src="/Resources/Icons/js.png" alt="Javascript icon"> -->
+                        <div class="skills-info">
+                            <h3>Javascript</h3>
+                            <progress value="50" max="100">50</progress>
+                        </div>
+                    </article>
+
+                    <article class="skills-wrapper">
+                        <!-- <img src="/Resources/Icons/nodejs.png" alt="Nodejs icon"> -->
+                        <div class="skills-info">
+                            <h3>Node js</h3>
+                            <progress value="50" max="100">50</progress>
+                        </div>
+                    </article>
+
+                    <article class="skills-wrapper">
+                        <!-- <img src="/Resources/Icons/git.png" alt="Git icon"> -->
+                        <div class="skills-info">
+                            <h3>Git</h3>
+                            <progress value="70" max="100">70</progress>
+                        </div>
+                    </article>
+
+                    <article class="skills-wrapper">
+                        <!-- <img src="/Resources/Icons/github.png" alt="Github icon"> -->
+                        <div class="skills-info">
+                            <h3>GitHub</h3>
+                            <progress value="70" max="100">70</progress>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">            
+            <div class="port-container">
+                <div class="headings">
+                    <h3 class="port-subtitle">Últimos Trabalhos</h3>
+                    <h2 class="port-title">Portfólio</h2>
+                </div>
+                <div class="port-wrap">
+                    
+                    <article class="port-info">
+                        <p>Em breve</p>
+                        <!-- <img src="/Resources/Images/computador.png" alt="Portifólio Website">
+                        <div class="port-description">
+                            <button class="web-button">Visitar o site</button>
+                            <h3 class="info-title">DPR Assessoria</h3>
+                            <p class="info-text">Site criada do zero para uma assessoria de serviços administrativos e financeiros, utilizando HTML, CSS e Javascript.</p>
+                        </div> -->
+                    </article>
+
+                    <article class="port-info"> 
+                        <p>Em breve</p>                                               
+                        <!-- <img src="Resources/Images/celular.png" alt="Portifólio Website">
+                        <div class="port-description">                            
+                            <button class="web-button">Ver o Site</button>
+                            <h3 class="info-title">Revamp Website</h3>
+                            <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum eget libero elementum amet ultricies ut hac ultrices ullamcorper.
+                        </div> -->
+                    </article>
+
+                    <article class="port-info">
+                        <p>Em breve</p>
+                        <!-- <img src="Resources/Images/icones.png" alt="Portifólio Website">
+                        <div class="port-description">
+                            <button class="web-button">Ver o Site</button>
+                            <h3 class="info-title">Revamp Website</h3>
+                            <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum eget libero elementum amet ultricies ut hac ultrices ullamcorper.
+                        </div> -->
+                    </article>
+
+                    <article class="port-info">
+                        <p>Em breve</p>
+                        <!-- <img src="Resources/Images/computador.png" alt="Portifólio Website">
+                        <div class="port-description">
+                            <button class="web-button">Ver o Site</button>
+                            <h3 class="info-title">Revamp Website</h3>
+                            <p class="info-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ipsum eget libero elementum amet ultricies ut hac ultrices ullamcorper.</p>
+                        </div> -->
+                    </article>                        
+                </div>
+                
+                <div class="button-container">
+                    <button class="port-button">
+                        <a href="#contact" class="port-link">
+                            Contato
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </a>
+                    </button>
+                </div>
+            </div>
+
+            
+        </section>
+
+        <section id="contact">
+            <div class="contact-container">
+                <h2 class="contact-heading">Fale comigo</h2>
+                <p class="contact-subheading">Para mais informações, projetos freelance ou uma oportunidade de emprego, fique à vontade para entrar em contato.</p>
+
+                <div class="contact-wrapper">
+                    <div class="contact-wrap">
+                        <article class="contact">
+                            <h3>Contato</h3>
+                                <div class="info-wrap">
+                                    <img src="/Resources/Icons/phone-call.png" alt="Telefone">
+                                    <div class="contact-info">
+                                        <h3>Telefone</h3>
+                                        <p>+55 (11) 99114-6479</p>
+                                    </div>
+                                </div>
+
+                                <div class="info-wrap">
+                                    <img src="/Resources/Icons/letter.png" alt="E-mail">
+                                    <div class="contact-info">
+                                        <h3>E-mail</h3>
+                                        <p>lucasfs022@gmail.com</p>
+                                    </div>
+                                </div>
+
+                                <div class="info-wrap">
+                                    <img src="/Resources/Icons/location.png" alt="Localização">
+                                    <div class="contact-info">
+                                        <h3>Localização</h3>
+                                        <p>Arujá/SP</p>
+                                    </div>
+                                </div>
+                        </article>
+
+                        <article class="contact-form">
+                    
+                            <form action="https://formspree.io/f/mwkyrrlb" method="POST"> <!-- Action is where the info is sent--> <!-- Metho = HTTP Request-->
+                                <label for="name" class="name-heading">Nome *</label>
+                                <br>
+                                <input type="text" name="Nome" id="nome" class="input-info" required placeholder="Digite aqui">
+                                <br>
+                                <label for="email" name="E-mail" class="email-heading">E-mail *</label>
+                                <br>
+                                <input type="text" name="E-mail" id="email" class="input-info" required placeholder="email@exemplo.com.br">
+                                <br>
+                                <label for="mensagem" name="Mensagem" class="text-heading">Mensagem *</label>
+                                <br>
+                                <textarea id="mensagem" name="Mensagem" rows="7" cols="40" class="input-msg" placeholder="Escreva aqui a sua mensagem" required></textarea>
+                                <br>
+                                <input type="submit" value="Enviar Mensagem" class="send-button">
+                            </form>                        
+
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-container">
+                <div class="name">
+                    <h2>Lucas Silva</h2>
+                    <p>FrontEnd Developer</p>
+                </div>
+
+                <div class="institucional">
+                    <h2>Institucional</h2>
+                    <nav>
+                        <ul class="footer-list">
+                            <li><a href="./Index.html">Home</a></li>
+                            <li><a href="#about">Sobre</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#portfolio">Portfólio</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer-medias">
+                    <h2>Redes Sociais</h2>
+                    
+                    <div class="footer-media-container">
+                        <div class="footer-media-icon">
+                            <a href="https://www.linkedin.com/in/lucas-silva-658980161" target="_blank" class="social-icon-link"><img src="./Resources/Icons/linkedin-white-icon.png" alt="linkedin-icon" class="linkedin-icon"></a>
+                        </div>
+
+                        <div class="footer-media-icon">
+                            <a href="https://github.com/lucasfs022" target="_blank" class="social-icon-link"><img src="./Resources/Icons/github-white-icon.png" alt="github-icon" class="github-icon"></a>
+                        </div>
+
+                        <div class="footer-media-icon">
+                            <a href="https://www.instagram.com/lucasfs022/" target="_blank" class="social-icon-link"><img src="./Resources/Icons/insta-white-icon.png" alt="instagram-icon" class="instagram-icon"></a>
+                        </div>
+
+                        <div class="footer-media-icon">
+                            <a href="https://api.whatsapp.com/send?phone=5511991146479" target="_blank" class="social-icon-link"><img src="./Resources/Icons/whats-white-icon.png" alt="whatsapp-icon" class="whatsapp-icon"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy <span class="name-copy">Lucas Silva</span> 2022 all rights reserved.</p>
+        </footer>
+        
+        <a href="#hero" class="to-top">
+            <i class="fa-solid fa-arrow-up"></i>
+            <!-- <i class="fa-solid fa-angle-up"></i> -->
+        </a>
+
+    </main>
+
+    <script src="/Javascript/Script.js"></script>
+    <link rel="stylesheet" href="/Portolio/Resources/Icons/ham-menu-close.svg">
+</body>
+</html>
